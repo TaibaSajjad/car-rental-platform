@@ -864,7 +864,7 @@ const handleTouchEnd = (e) => {
 
 
 /* =================================================
-   WHY VELORA EXIT
+   WHY DRIVERENT EXIT
 ================================================= */
 
 .to(
@@ -1667,8 +1667,8 @@ const handleTouchEnd = (e) => {
 
     {/* DESCRIPTION */}
     <p className="why-description">
-      Velora makes car rental easier from start to finish.
-      Choose your car, pick your dates and enjoy a simple
+      DriveRent makes car rental easier from start to finish.
+      Pick your dates, choose your car and enjoy a simple
       booking experience built around your journey.
     </p>
 
@@ -1798,7 +1798,7 @@ const handleTouchEnd = (e) => {
 
       <br />
 
-      HIT THE ROAD.
+      START YOUR JOURNEY.
 
     </h2>
 
@@ -3884,7 +3884,7 @@ select {
 
 
 /* =====================================================
-   WHY VELORA CAR
+   WHY DRIVERENT CAR
 ===================================================== */
 
 .stats-car {

@@ -492,7 +492,7 @@ export default function Booking() {
 
         <p>
           Complete your reservation details and
-          get ready to hit the road.
+          get ready to start your journey.
         </p>
       </section>
 
@@ -586,7 +586,7 @@ export default function Booking() {
                 </option>
 
                 <option value="Faisalabad">
-                  Faisalabad
+                  Rawalpindi
                 </option>
               </select>
             </div>
@@ -632,7 +632,7 @@ export default function Booking() {
                 </option>
 
                 <option value="Faisalabad">
-                  Faisalabad
+                  Rawalpindi
                 </option>
               </select>
             </div>
