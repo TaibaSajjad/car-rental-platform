@@ -94,7 +94,7 @@ const cars = [
     transmission: "Automatic",
     availability: "Available",
     image:
-      "https://pngimg.com/uploads/bmw/bmw_PNG99546.png",
+      "https://www.pngmart.com/files/22/BMW-7-Series-PNG-Transparent.png",
     description:
       "A premium executive experience with intelligent technology, spacious comfort and effortless power.",
     engine: "3.0L Turbo",

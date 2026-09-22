@@ -78,7 +78,7 @@ const cars = [
     ],
     unavailableDates: [],
     image:
-      "https://pngimg.com/uploads/bmw/bmw_PNG99546.png",
+  "https://www.pngmart.com/files/22/BMW-7-Series-PNG-Transparent.png",
   },
 
   {
@@ -156,7 +156,7 @@ const cars = [
     ],
     unavailableDates: [],
     image:
-      "https://pngimg.com/uploads/range_rover/range_rover_PNG55.png",
+      "https://pngimg.com/uploads/land_rover/land_rover_PNG7.png",
   },
 ];
 
@@ -447,7 +447,11 @@ const filteredCars = useMemo(() => {
           <div className="cars-grid">
 
             {filteredCars.map((car, index) => (
-              <article className="car-card" key={car.id}>
+  <Link
+    to={`/cars/${car.id}`}
+    className="car-card"
+    key={car.id}
+  >
 
                 <div className="car-card-top">
                   <span className="car-number">
@@ -518,7 +522,7 @@ const filteredCars = useMemo(() => {
                   </div>
 
                 </div>
-              </article>
+              </Link>
             ))}
 
           </div>

@@ -32,7 +32,7 @@ const cars = [
     type: "Executive",
     price: 240,
     image:
-      "https://pngimg.com/uploads/bmw/bmw_PNG99546.png",
+      "https://www.pngmart.com/files/22/BMW-7-Series-PNG-Transparent.png",
   },
   {
     id: 5,

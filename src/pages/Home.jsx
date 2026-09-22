@@ -14,7 +14,6 @@ gsap.registerPlugin(ScrollTrigger);
 /* =====================================================
    CAR IMAGES
 ===================================================== */
-
 const CAR_1 =
   "https://pngimg.com/uploads/mercedes/mercedes_PNG80140.png";
 
@@ -24,22 +23,17 @@ const CAR_2 =
 const CAR_3 =
   "https://pngimg.com/uploads/mercedes/mercedes_PNG80172.png";
 
-
-/* Additional premium car images */
-
 const CAR_4 =
-  "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=85";
+  "https://www.pngmart.com/files/22/BMW-7-Series-PNG-Transparent.png";
 
 const CAR_5 =
-  "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=85";
+  "https://pngimg.com/uploads/bmw/bmw_PNG99564.png";
 
 const CAR_6 =
-  "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=85";
+  "https://pngimg.com/uploads/audi/audi_PNG1758.png";
 
 const CAR_7 =
-  "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=85";
-
-
+  "https://pngimg.com/uploads/porsche/porsche_PNG10627.png";
 /* =====================================================
    FEATURED COLLECTION
 ===================================================== */
@@ -56,7 +50,6 @@ const FEATURED_CARS = [
     seats: "5",
     transmission: "Automatic",
   },
-
   {
     id: 2,
     category: "PERFORMANCE",
@@ -68,7 +61,6 @@ const FEATURED_CARS = [
     seats: "2",
     transmission: "Automatic",
   },
-
   {
     id: 3,
     category: "LUXURY",
@@ -80,7 +72,6 @@ const FEATURED_CARS = [
     seats: "4",
     transmission: "Automatic",
   },
-
   {
     id: 4,
     category: "EXECUTIVE",
@@ -92,10 +83,9 @@ const FEATURED_CARS = [
     seats: "5",
     transmission: "Automatic",
   },
-
   {
     id: 5,
-    category: "SPORT",
+    category: "PERFORMANCE",
     name: "BMW M4",
     model: "M4 Competition",
     price: "$260",
@@ -104,19 +94,17 @@ const FEATURED_CARS = [
     seats: "4",
     transmission: "Automatic",
   },
-
   {
     id: 6,
-    category: "PREMIUM",
+    category: "LUXURY",
     name: "Audi A8",
     model: "A8 L",
-    price: "$230",
+    price: "$210",
     image: CAR_6,
-    fuel: "Petrol",
+    fuel: "Hybrid",
     seats: "5",
     transmission: "Automatic",
   },
-
   {
     id: 7,
     category: "SPORTS",
@@ -1899,7 +1887,7 @@ select {
 
 .home {
   width: 100%;
-  overflow: hidden;
+  overflow: visible;
   background: #fafafd;
 }
 
@@ -1907,6 +1895,7 @@ select {
   position: relative;
   height: 600vh;
   z-index: 0;
+  margin-bottom: 100vh;
 }
 
 .world {
