@@ -5,7 +5,7 @@ import React, {
 } from "react";
 
 import { gsap } from "gsap";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -1072,13 +1072,13 @@ const handleTouchEnd = (e) => {
                   next journey.
                 </p>
 
-                <a
-                  href="/cars"
-                  className="hero-button"
-                >
-                  BOOK A CAR
-                  <span>↗</span>
-                </a>
+                <Link
+  to="/cars"
+  className="hero-button"
+>
+  BOOK A CAR
+  <span>↗</span>
+</Link>
 
               </div>
 
@@ -1269,13 +1269,13 @@ const handleTouchEnd = (e) => {
               </div>
 
 
-              <a
-                href="/cars"
-                className="all-cars"
-              >
-                VIEW ALL CARS
-                <span>↗</span>
-              </a>
+              <Link
+  to="/cars"
+  className="all-cars"
+>
+  VIEW ALL CARS
+  <span>↗</span>
+</Link>
 
             </div>
 
